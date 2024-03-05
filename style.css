@@ -1,0 +1,54 @@
+body{
+    background-color: rgb(26, 25, 25);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Time Styling */
+
+#container {
+    color: white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+.digit {
+    font-size: 100px;
+    font-weight: lighter;
+}
+
+.txt {
+    font-size: 100px;
+    font-weight: lighter;
+}
+
+#btn-container {
+    text-align: center;
+    margin-top: 20px;
+    
+}
+
+/* Button styling */
+
+.btn {
+    padding: 7px 25px;
+    margin: 0px 5px;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#start{
+    background-color: rgba(236, 240, 240, 0.936);
+ border-radius: 0%;
+}
+
+#stop {
+    background-color: rgba(236, 240, 240, 0.936);
+}
+
+#reset {
+    background-color: rgba(236, 240, 240, 0.936);
+}
